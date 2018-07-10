@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.7.2'
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-remote-theme"
 
 group :jekyll_plugins do
-  gem 'jekyll-remote-theme'
   gem 'jekyll-archives', '2.1.1'
   gem 'jekyll-feed', '0.9.3'
   gem 'jekyll-paginate', '1.1.0'
