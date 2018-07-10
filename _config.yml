@@ -30,6 +30,7 @@ timezone: Etc/UTC
 permalink: pretty
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
